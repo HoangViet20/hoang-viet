@@ -5,8 +5,8 @@ let menu = ['Canh ngao','Thit ga']
 console.log(menu)
 
 //Create
-menu.push('hamburger')
-console.log(menu)
+// menu.push('hamburger')
+// console.log(menu)
 
 //Read
 //Để đọc 1 phần tử trong mang thi sẽ phải đọc bằng chỉ số index
@@ -15,7 +15,7 @@ console.log(menu)
 
 // //Đọc tất cả các phân tử trong array 
 
-// // console.log(menu.length)
+// console.log(menu.length)
 
 // for(let i = 0; i < menu.length; i++){
 //     console.log(menu[i])
@@ -42,5 +42,5 @@ console.log(menu)
 
 //Delete 
 
-menu.splice(1,2)
-console.log(menu)
+// menu.splice(1,2)
+// console.log(menu)
