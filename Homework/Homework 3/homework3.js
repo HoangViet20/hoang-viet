@@ -46,3 +46,14 @@ if (userInput === "R"){
     console.log("This command is not supported")
     loop = false
 }}
+
+
+
+let input = prompt("Nhap So:")
+let s = input.split(",")
+let sum = 0
+for(let i=0; i<s.length; i++)
+{
+    sum+=Number(s[i])
+}
+console.log(`Tong la: ${sum}`)
