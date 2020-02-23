@@ -17,9 +17,9 @@ console.log(menu)
 
 // console.log(menu.length)
 
-// for(let i = 0; i < menu.length; i++){
-//     console.log(menu[i])
-// }
+for(let i = 0; i < menu.length; i++){
+    console.log(menu[i])
+}
 
 // menu.forEach((value, index)=>{
 //     console.log(`${index} ${value}`)
