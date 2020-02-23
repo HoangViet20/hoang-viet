@@ -92,14 +92,19 @@ let a = Number(prompt("Enter the product position"))
           }
 
 let b = prompt("Enter the category:")
-if (b === "Charger"){
-    console.clear()
-    console.log(`Name: ${shop[0].Name} \n Price: ${shop[0].Price}`)
-}else if (b=== "Phone"){
-    console.clear()
-    console.log(`Name: ${shop[1].Name} \n Price: ${shop[1].Price}`)
-    console.log(`Name: ${shop[2].Name} \n Price: ${shop[3].Price}`)
-    console.log(`Name: ${shop[2].Name} \n Price: ${shop[3].Price}`)
-}
+// if (b === "Charger"){
+//     console.clear()
+//     console.log(`Name: ${shop[0].Name} \n Price: ${shop[0].Price}`)
+// }else if (b=== "Phone"){
+//     console.clear()
+//     console.log(`Name: ${shop[1].Name} \n Price: ${shop[1].Price}`)
+//     console.log(`Name: ${shop[2].Name} \n Price: ${shop[3].Price}`)
+//     console.log(`Name: ${shop[2].Name} \n Price: ${shop[3].Price}`)
+// }
 
+product.forEach((value, index)=>{
+    if(b == value.Category){
+        console.log(`${value.Name}`)
+    }
+})
 
