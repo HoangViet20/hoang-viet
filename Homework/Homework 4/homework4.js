@@ -86,12 +86,20 @@ shop.forEach((value, index) => {
 })
 
 let a = Number(prompt("Enter the product position"))
-if (shop[index]=== a){
     console.clear()
-
-    for (let [key, value] of Object.entries(shop[a])){
+    for (let [key, value] of Object.entries(shop[a-1])){
             console.log(`${key}: ${value}`);
           }
+
+let b = prompt("Enter the category:")
+if (b === "Charger"){
+    console.clear()
+    console.log(`Name: ${shop[0].Name} \n Price: ${shop[0].Price}`)
+}else if (b=== "Phone"){
+    console.clear()
+    console.log(`Name: ${shop[1].Name} \n Price: ${shop[1].Price}`)
+    console.log(`Name: ${shop[2].Name} \n Price: ${shop[3].Price}`)
+    console.log(`Name: ${shop[2].Name} \n Price: ${shop[3].Price}`)
 }
 
 
