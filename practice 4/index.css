@@ -1,0 +1,24 @@
+p{
+    color: red;
+}
+
+#background_color{
+    background-color:  #00FF00;
+}
+
+.bigtext{
+    font-size: 24px;
+}
+
+a[target]{
+    color: yellow;
+}
+
+ol>ul{
+    font-weight: bold;
+}
+
+div span {
+    font-size: 18px;
+}
+
